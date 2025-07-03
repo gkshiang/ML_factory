@@ -10,12 +10,7 @@ import streamlit as st
 import joblib
 from PIL import Image
 import numpy as np
-
-try:
-    import cv2
-except ImportError:
-    st.error("OpenCV (cv2) is not installed properly. Check requirements.txt.")
-    raise
+import cv2
     
 st.title ("Dell Global Busyness Centre")
 st.image ("dell_logo.jpg")
